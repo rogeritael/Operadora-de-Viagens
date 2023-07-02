@@ -1,0 +1,35 @@
+:root {
+    --bg: #FAFBFD;
+    --blue: #88A4E8;
+    --green: #295943;
+    --brown: #AC9374;
+    --main-color: #181E4B;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    color: var(--main-color);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
